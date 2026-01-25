@@ -207,96 +207,93 @@ export const openSourceContributions: OpenSourceContribution[] = [
 ];
 
 export const projectsData: ProjectData[] = [
+  
+
   {
-    name: "Google Clone with ReactJs",
+    name: "CodeDiff AI — Economic Security Engine",
+    tag: "Flagship",
     duration: "Ongoing",
-    liveLink: "https://clonegoogle.vercel.app",
-    githubLink: "https://github.com/hrshkshri/google-clone",
+    liveLink: "https://codediffai.vercel.app", // add if you have
+    githubLink: "https://github.com/ikshantshukla123/codediff-ai", 
     description: [
-      "This is a **Google search clone** created using **React.js, Tailwind CSS, Vite**, and the **Google Search API**.",
-      "It provides features like **debounced search, autocomplete suggestions**, and displays search results along with images, **pagination**, and **multilingual support** using **Google Translate**.",
-      "The **Context API** is used for **state management** for searching images.",
+      "Built an **intelligent security pipeline** that translates vulnerabilities into **financial risk** (e.g., **GDPR fines, fraud liability**) instead of only developer-style lint errors.",
+      "Implemented **Multi-Model AI Orchestrator** (DeepSeek/Groq for syntax + Gemini for risk context + HuggingFace for intent classification) to audit PRs with higher precision.",
+      "Added **Interactive Attack Simulation (Neural Terminal)** that generates a deterministic exploit replay so developers can visually understand the bug impact.",
+      "Created **Zero-Trust Math Layer** using **Luhn validation** to suppress false positives for PCI checks and prevent AI hallucination.",
+      "Designed **event-driven architecture with Inngest** for reliable PR processing: <100ms webhook response, retries, idempotency, and parallel execution.",
     ],
-    category: "Web Development",
-    techStack: "React.js, Tailwind CSS, Vite, Google Search API, Context API",
+    category: "Full-Stack + Security",
+    techStack:
+      "Next.js 14, TypeScript, Prisma, PostgreSQL (Neon), Inngest, Clerk, Gemini, OpenRouter (DeepSeek), HuggingFace, Recharts",
   },
+
   {
-    name: "Job Application App",
-    tag: "",
-    githubLink: "https://github.com/hrshkshri/job-application-app",
+    name: "CodeSensei — AI Security Learning Platform",
+    tag: "Flagship",
+    duration: "Ongoing",
+    liveLink: "https://codesensei-kappa.vercel.app/",
+    githubLink: "https://github.com/ikshantshukla123/codesensei",
     description: [
-      "**Mobile application** used to browse job listings and apply for jobs using data retrieved from a **free job API**.",
-      "Implemented features such as **user authentication**, browsing job listings, applying for jobs, viewing job details, and **saving favourite jobs**.",
-    ],
-    category: "Mobile Development",
-    techStack: "React Native, Expo CLI",
-  },
-  {
-    name: "Drive React",
-    tag: "",
-    liveLink: "https://drive-react.vercel.app",
-    githubLink: "https://github.com/hrshkshri/drive-react",
-    description: [
-      "Implemented **user registration** using **Firebase Auth** for **secure authentication**.",
-      "Utilized **Firebase Cloud Firestore** and **Firebase Storage** to manage file and folder creation, ensuring **seamless user interactions** with uploaded content.",
-      "Designed **intuitive folder navigation** with **breadcrumb tracking**, enhancing user experience.",
-      "Used **React Hooks** for **state management** and component logic, and **Context API** for efficient **global state management**.",
-      "Applied **Material UI** and **Styled Components** for a clean and modern design.",
-    ],
-    category: "Web Development",
-    techStack: "React, Firebase, Material UI, Styled Components",
-  },
-  {
-    name: "Pokédex App",
-    tag: "",
-    liveLink: "https://harsh-pokedex.vercel.app",
-    githubLink: "https://github.com/hrshkshri/pokedex",
-    description: [
-      "**Full-stack application** to explore Pokémon data, allowing users to **browse, search, and filter** Pokémon information.",
-      "Implemented a **responsive design** using **Material-UI**, providing an **optimal user experience** across devices.",
-      "Employed **tRPC** for **type-safe API interactions**, ensuring seamless communication between the frontend and backend.",
-      "Managed data with **Prisma ORM** and stored it in a **PostgreSQL database** on **Supabase**, facilitating **efficient data retrieval and management**.",
-    ],
-    category: "Front-End Development",
-    techStack: "next.js, tRPC, Material-UI, Prisma, supabase, PostgreSQL",
-  },
-  {
-    name: "Bitcoin Wallet - cli tool",
-    tag: "",
-    githubLink: "https://github.com/hrshkshri/bitcoin-cli-tool",
-    description: [
-      "A **command-line interface (CLI) tool** to manage **Bitcoin wallets, addresses, and transactions**.",
-      "Implemented functionalities like **wallet creation, address generation, balance checking**, and **transaction history**.",
-      "Utilized the **blockcypther API** to fetch **real-time Bitcoin data**.",
-    ],
-    category: "CLI Development",
-    techStack: "Node.js, Blockcypher API",
-  },
-  {
-    name: "Event calendar",
-    tag: "",
-    liveLink: "https://calendar-frontend-kappa-rosy.vercel.app",
-    githubLink: "https://github.com/hrshkshri/calendar-frontend",
-    description: [
-      "Developed a **calendar application** with features like **event creation, deletion, and editing**.",
-      "Utilized **React Big Calendar** for a **user-friendly interface** and a **seamless user experience**.",
-      "Implemented **user authentication and authorization** using **Express.js** and **JSON Web Tokens (JWT)**.",
+      "Built a **security education platform** that teaches students using **real PR vulnerabilities**, not textbook theory.",
+      "Implemented **GitHub App PR analysis** with Inngest background jobs to avoid webhook timeout failures and guarantee reliability.",
+      "Created **AI Professor Mode** to generate structured lessons (Concept → Code Anatomy → Real breach example → Fix) with retry logic.",
+      "Added gamification via **Career Wallet system** (coins, streaks, atomic transactions) and **competitive leaderboards**.",
+      "Designed a modern dashboard experience with **scroll-spy lesson navigation** and interactive vulnerability summaries.",
     ],
     category: "Full-Stack Development",
-    techStack: "MERN Stack, React Big Calendar",
+    techStack:
+      "Next.js 16, TypeScript, TailwindCSS, Prisma, PostgreSQL (Neon), Clerk, Inngest, Octokit/GitHub App, Gemini, OpenRouter (DeepSeek)",
   },
+
   {
-    name: "Nexus",
-    tag: "Maintained",
-    githubLink: "https://github.com/orgs/the-nexus-point/repositories",
+    name: "T-Shirt Store + Admin Dashboard (E-commerce SaaS)",
+    tag: "",
+    duration: "Completed",
+    liveLink: "https://tshirt-five-lovat.vercel.app",
+    githubLink: "https://github.com/ikshantshukla123/logo",
     description: [
-      "Developed a **live web portal** to facilitate **real-time coding contest participation** and monitoring for **300+ students** at the college level.",
-      "Implemented a **user-friendly student portal** for **contest enrollment** and **standings viewing** on **CodeChef**.",
-      "Established a **secure admin portal** for **profile management**, **efficient data scraping**, and **result generation**.",
-      "Utilized **web scraping techniques** to extract **real-time user data** from **CodeChef**.",
-      "Implemented **user authentication and authorization** using **Passport.js** and **JSON Web Tokens (JWT)**.",
+      "Developed a full-stack **e-commerce platform** with **storefront + protected admin dashboard** for products, orders, users, and analytics.",
+      "Implemented **JWT-based authentication** with secure admin-only routes and role-based access.",
+      "Built product management with CRUD + media upload using **UploadThing** and optimized image delivery using **ImageKit**.",
+      "Used **Prisma + Neon PostgreSQL** with clean schema design and type-safe data fetching utilities.",
+      "Optimized rendering using **ISR + SSR + CSR** strategy for performance and scalability.",
     ],
     category: "Full-Stack Development",
-    techStack: "MERN Stack, Chakra-UI, Tailwind CSS",
+    techStack:
+      "Next.js 16, TypeScript, TailwindCSS, Prisma, Neon PostgreSQL, JWT Auth, UploadThing, ImageKit, Zustand, React Hook Form + Zod",
   },
+
+  {
+    name: "Hamper Heaven — Full-Stack Gifting Platform",
+    tag: "",
+    duration: "Completed",
+    liveLink: "https://haven-snowy.vercel.app",
+    githubLink: "https://github.com/ikshantshukla123/Haven", 
+    description: [
+      "Built a modern full-stack gifting platform where users can browse and order curated/custom hampers **without login**.",
+      "Designed an **admin-only panel** for managing products, orders, and custom requests with Cloudinary image upload.",
+      "Implemented smooth UI/UX using **Tailwind + Framer Motion**, responsive layout, and animated sections.",
+      "Created a REST API backend with **Node.js + Express + MongoDB** for product + order flows.",
+    ],
+    category: "Full-Stack Development",
+    techStack:
+      "React (Vite), TailwindCSS, Framer Motion, React Router, Node.js, Express, MongoDB (Mongoose), Cloudinary",
+  },
+
+  {
+    name: "Stablecoin Protocol — DeFi (Solidity)",
+    tag: "",
+    duration: "Completed",
+    liveLink: "", // optional
+    githubLink: "https://github.com/ikshantshukla123/Stablecoin-protocol", // paste repo link here
+    description: [
+      "Built a decentralized **vault-based stablecoin protocol** where users deposit collateral and mint a USD-pegged stablecoin.",
+      "Implemented core smart contract logic in **Solidity** with safe patterns and reusable components from OpenZeppelin.",
+      "Wrote automated tests using **Foundry** and achieved around **70% test coverage**.",
+    ],
+    category: "Blockchain / Smart Contracts",
+    techStack: "Solidity, Foundry (Forge/Cast/Anvil), OpenZeppelin",
+  },
+
 ];
+

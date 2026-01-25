@@ -11,7 +11,7 @@ const ContributionGraph: React.FC = () => {
         </h2>
       </div>
       <img
-        src={`https://github-readme-activity-graph.vercel.app/graph?username=hrshkshri&theme=github-dark&hide_border=true&bg_color=000000&color=39d353&line=39d353&point=ffffff`}
+        src="https://github-readme-activity-graph.vercel.app/graph?username=ikshantshukla123&theme=github-dark&hide_border=true&bg_color=000000&color=39d353&line=39d353&point=ffffff"
         alt="GitHub Contribution Graph"
         className="w-full rounded-xl"
       />

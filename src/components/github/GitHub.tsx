@@ -7,6 +7,8 @@ import ErrorState from "./ErrorState";
 import Header from "./Header";
 import StatsCards from "./StatsCards";
 import ContributionGraph from "./ContributionGraph";
+import GithubCards from "./GithubCards";
+import GithubCard from "../home/cards/GithubCard";
 
 const GitHub: React.FC = () => {
   const [data, setData] = useState<GitHubData | null>(null);
@@ -36,6 +38,7 @@ const GitHub: React.FC = () => {
         <Header user={data.user} />
         <StatsCards user={data.user} />
         <ContributionGraph />
+        <GithubCards />
       </div>
     </div>
   );

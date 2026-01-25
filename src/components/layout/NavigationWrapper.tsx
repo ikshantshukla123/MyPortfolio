@@ -23,7 +23,7 @@ export default function NavigationWrapper({ children }: NavigationWrapperProps) 
 
           {/* Footer section in sidebar */}
           <div className="p-6 border-t border-neutral-800">
-            <p className="text-xs text-neutral-500">© 2024 Harsh Keshari</p>
+            <p className="text-xs text-neutral-500">© 2025 Ikshant Shukla</p>
           </div>
         </div>
       </aside>

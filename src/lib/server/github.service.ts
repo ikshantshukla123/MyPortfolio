@@ -1,6 +1,6 @@
 import serverAxios from './axios';
 
-const GITHUB_USERNAME = 'hrshkshri';
+const GITHUB_USERNAME = 'ikshantshukla123';
 const GITHUB_API_BASE = 'https://api.github.com';
 
 export interface GitHubUser {
