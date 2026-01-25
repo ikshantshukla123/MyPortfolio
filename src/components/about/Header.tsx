@@ -6,14 +6,14 @@ const Header: React.FC = () => {
   return (
     <>
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
-        Harsh Keshari
+Ikshant Shukla
       </h1>
       <p className="text-lg md:text-xl text-neutral-300 mb-4">
         Full Stack Developer
       </p>
       <p className="text-sm md:text-base text-neutral-400 leading-relaxed mb-6">
         Passionate about building scalable web applications and contributing to open source.
-        Currently working as a Fullstack Engineer at Experiment Labs, with experience in
+        Currently working some personal projects, with experience in
         backend development, payment systems, and learning management platforms.
       </p>
 
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
           <AiFillGithub className="w-6 h-6" />
         </a>
         <a
-          href="https://www.linkedin.com/in/hrshkshri/"
+          href="https://www.linkedin.com/in/ikshant-shukla-097771327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-400 hover:text-amber-400 transition-colors duration-300"
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           <AiFillLinkedin className="w-6 h-6" />
         </a>
         <a
-          href="https://twitter.com/hrshkshri"
+          href="https://twitter.com/ish_nk"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-400 hover:text-amber-400 transition-colors duration-300"
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
           <BsTwitter className="w-6 h-6" />
         </a>
         <a
-          href="mailto:harshkeshari100@gmail.com"
+          href="mailto:ikshankshukla44@gmail.com"
           className="text-neutral-400 hover:text-amber-400 transition-colors duration-300"
         >
           <AiFillMail className="w-6 h-6" />

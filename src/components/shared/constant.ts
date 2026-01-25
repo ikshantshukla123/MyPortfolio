@@ -127,14 +127,14 @@ export const skillsData: SkillCategory[] = [
 export const resumeLink = "/resume.pdf";
 
 export const socialLinks: SocialLink[] = [
-  { href: "https://twitter.com/ikshankkk", icon: BsTwitter, label: "Twitter" },
+  { href: "https://twitter.com/ish_nk", icon: BsTwitter, label: "Twitter" },
   {
-    href: "https://www.instagram.com/ikshankkk/",
+    href: "https://www.instagram.com/ish_nk/",
     icon: AiFillInstagram,
     label: "Instagram",
   },
   {
-    href: "https://www.linkedin.com/in/ikshankkk/",
+    href: "https://www.linkedin.com/in/ikshant-shukla-097771327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     icon: AiFillLinkedin,
     label: "LinkedIn",
   },
@@ -203,51 +203,7 @@ export const experiences: Experience[] = [
 ];
 
 export const openSourceContributions: OpenSourceContribution[] = [
-  {
-    role: "Member & LaCE Quality Team Lead",
-    organization: "Oppia Foundation",
-    organizationUrl: "https://www.github.com/oppia",
-    period: "Nov 2023 - April 2024",
-    achievements: [
-      "Led the **LaCE (Learner and Creator Experience) quality team**, managing task assignments for new contributors and conducting **code reviews** to ensure quality standards across all user-facing features.",
-      "Contributed **10 merged PRs** using **Python** (backend) and **AngularJS** (frontend), including major features like **admin acceptance tests** and **topic editor migration**",
-      "Implemented **UI enhancements** and **bug fixes** across multiple pages: added loading states for lesson pages, fixed community library item alignment, corrected partnership page layouts, and improved mobile UI responsiveness.",
-      "Developed comprehensive **unit tests** and **end-to-end acceptance tests** to improve test coverage and platform reliability.",
-    ],
-  },
-  {
-    role: "Contributor",
-    organization: "Tailcall",
-    organizationUrl:
-      "https://github.com/tailcallhq/tailcallhq.github.io/pulls?q=is:pr+author:hrshkshri",
-    period: "",
-    achievements: [
-      "Fixed a critical **search bar modal focus issue** in the documentation site, improving user navigation and accessibility.",
-      "Completed a **$150 bounty** for the contribution, demonstrating ability to deliver functional, production-ready features.",
-    ],
-  },
-  {
-    role: "Contributor",
-    organization: "CircuitVerse",
-    organizationUrl:
-      "https://github.com/CircuitVerse/CircuitVerse/pulls?q=is:pr+author:hrshkshri",
-    period: "",
-    achievements: [
-      "Fixed a **search bar overlap issue**, ensuring the search bar never hides page content, improving navigation and user experience.",
-      "Improved **responsiveness of the profile page** by optimising layout and CSS, enabling seamless viewing across devices.",
-    ],
-  },
-  {
-    role: "Contributor",
-    organization: "Zlux Server Framework (Zowe)",
-    organizationUrl:
-      "https://github.com/zowe/zlux-server-framework/pulls?q=is:pr+author:hrshkshri",
-    period: "",
-    achievements: [
-      "Fixed an **authentication bug** by ensuring proper error handling and response reliability.",
-      "Contribution labelled **size/XS**, demonstrating precise and minimal yet effective changes in the codebase.",
-    ],
-  },
+
 ];
 
 export const projectsData: ProjectData[] = [

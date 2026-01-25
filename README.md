@@ -1,4 +1,4 @@
-# Harsh Keshari
+# Ikshant shukla
 
 This is the repository is for my personal website.
 
@@ -20,7 +20,7 @@ This is the repository is for my personal website.
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/hrshkshri/portfolio`
+1. Clone the repository: `git clone https://github.com//portfolio`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open your browser and visit: `http://localhost:3000`

@@ -7,20 +7,20 @@ export const metadata: Metadata = {
   title: "About",
   description: "Learn more about Harsh Keshari - Full Stack Developer at Experiment Labs. Explore my professional experience, open source contributions, and personal projects.",
   openGraph: {
-    title: "About Harsh Keshari | Full Stack Developer",
-    description: "Professional experience, open source contributions, and projects by Harsh Keshari - Full Stack Developer passionate about building scalable web applications.",
-    url: "https://hrshkshri.me/about",
+    title: "About Ikshant shukla | Full Stack Developer",
+    description: "Professional experience, open source contributions, and projects by Ikshant Shukla - Full Stack Developer passionate about building scalable web applications.",
+   // url: "https://hrshkshri.me/about",
   },
   twitter: {
-    title: "About Harsh Keshari | Full Stack Developer",
-    description: "Professional experience, open source contributions, and projects by Harsh Keshari - Full Stack Developer passionate about building scalable web applications.",
+    title: "About Ikshant shukla | Full Stack Developer",
+    description: "Professional experience, open source contributions, and projects by Ikshant Shukla - Full Stack Developer passionate about building scalable web applications.",
   },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Harsh Keshari",
+  name: "Ikshant Shukla",
   url: "https://hrshkshri.me",
   jobTitle: "Full Stack Developer",
   worksFor: {
@@ -33,7 +33,7 @@ const personSchema = {
     "https://www.linkedin.com/in/hrshkshri/",
     "https://twitter.com/hrshkshri"
   ],
-  email: "mailto:harshkeshari100@gmail.com",
+  email: "mailto:ikshankshukla44@gmail.com",
   knowsAbout: ["React", "Next.js", "Node.js", "Full Stack Development", "Open Source", "Web Development"]
 };
 
