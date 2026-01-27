@@ -6,7 +6,7 @@ import { resumeLink } from "../shared/constant";
 
 const Banner: React.FC = () => {
     return (
-        <div className="p-6 rounded-md bg-amber-500 hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+        <div className="p-6 rounded-md bg-emerald-500 hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
             <p className="font-sans text-neutral-900 text-lg font-semibold text-center">
                 Open to SDE/SWE full-time roles focused on developing robust frontend and backend infrastructure.
             </p>

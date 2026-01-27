@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ user }) => {
       <div className="flex items-center gap-3">
         <div className="relative">
           <AiFillGithub className="w-12 h-12 text-green-500 animate-pulse" />
-          <RiSparklingFill className="w-4 h-4 text-amber-400 absolute -top-1 -right-1 animate-bounce" />
+          <RiSparklingFill className="w-4 h-4 text-emerald-400 absolute -top-1 -right-1 animate-bounce" />
         </div>
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-white">
@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ user }) => {
         href={`https://github.com/${user.login}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="px-6 py-2.5 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 hover:border-amber-500/50 rounded-xl text-amber-400 hover:text-amber-300 font-medium transition-all flex items-center gap-2 group"
+        className="px-6 py-2.5 bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 hover:border-emerald-500/50 rounded-xl text-emerald-400 hover:text-emerald-300 font-medium transition-all flex items-center gap-2 group"
       >
         <span>View Profile</span>
         <FiExternalLink className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

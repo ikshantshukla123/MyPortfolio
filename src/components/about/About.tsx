@@ -4,7 +4,7 @@ import React from "react";
 import Banner from "./Banner";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import OpenSource from "./OpenSource";
+
 import Header from "./Header";
 
 const About: React.FC = () => {
@@ -24,10 +24,7 @@ const About: React.FC = () => {
             <Experience />
           </section>
 
-          {/* Open Source Section */}
-          <section>
-            <OpenSource />
-          </section>
+       
 
           {/* Projects Section */}
           <section>

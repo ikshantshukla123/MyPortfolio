@@ -63,6 +63,9 @@ class GitHubServerService {
       {
         headers: {
           Accept: 'application/vnd.github.v3+json',
+          ...(process.env.GITHUB_TOKEN && {
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          }),
         },
       }
     );
@@ -82,6 +85,9 @@ class GitHubServerService {
         },
         headers: {
           Accept: 'application/vnd.github.v3+json',
+          ...(process.env.GITHUB_TOKEN && {
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          }),
         },
       }
     );
@@ -100,6 +106,9 @@ class GitHubServerService {
         },
         headers: {
           Accept: 'application/vnd.github.v3+json',
+          ...(process.env.GITHUB_TOKEN && {
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          }),
         },
       }
     );

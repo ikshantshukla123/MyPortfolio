@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
             {socialLinks.map((link, index) => (
                 <Link key={index} href={link.href} aria-label={link.label}>
                     <link.icon
-                        className="w-6 h-6 hover:text-amber-300 transition-transform transform hover:scale-110"
+                        className="w-6 h-6 hover:text-emerald-400 transition-transform transform hover:scale-110"
                         aria-hidden="true"
                     />
                 </Link>

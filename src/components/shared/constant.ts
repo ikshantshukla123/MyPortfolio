@@ -2,12 +2,17 @@ import { TbBrandCpp, TbBrandNextjs, TbSql } from "react-icons/tb";
 import {
   SiJavascript,
   SiTypescript,
+  SiGithub,
   SiTailwindcss,
   SiExpress,
   SiPostman,
   SiMongodb,
   SiFirebase,
   SiGo,
+   SiGmail,
+  SiLinkedin,
+
+  SiWhatsapp,
   SiAngular,
   SiPostgresql,
   SiMysql,
@@ -64,13 +69,6 @@ interface Experience {
   projects: Project[];
 }
 
-interface OpenSourceContribution {
-  role: string;
-  organization: string;
-  organizationUrl: string;
-  period: string;
-  achievements: string[];
-}
 
 interface ProjectData {
   name: string;
@@ -149,19 +147,19 @@ export const socialLinks: SocialLink[] = [
 export const navLinks: NavLink[] = [
   { href: "/home", icon: AiOutlineHome, label: "Home" },
   { href: "/about", icon: BsFillPersonVcardFill, label: "About" },
-  { href: "/spotify", icon: SiSpotify, label: "Spotify" },
-  { href: "/calendar", icon: BsCalendar3, label: "Schedule" },
+  { href: "/github", icon: SiGithub, label: "GitHub" },
+  { href: "/contact", icon : SiWhatsapp, label: "Contact" },
 ];
 
 export const experiences: Experience[] = [
   {
-    role: "Backend Developer",
-    company: "Xipper",
+    role: "Personal Projects",
+    company: "",
     companyUrl: "https://www.linkedin.com/company/xipper",
-    period: "Sept 2024 - Nov 2024",
+    period: "Dec 2025 - Present",
     projects: [
       {
-        name: "Hotel Booking Platform MVP",
+        name: "SaaS",
         achievements: [
           "**Designed and developed the MVP** of Xipper, a **hotel booking and management web & mobile platform**, implementing core backend features using **Node.js** and **Express.js**.",
           "Built and exposed **RESTful APIs** for key functionalities such as room booking, availability management, and user authentication, ensuring **reliability and scalability**.",
@@ -170,41 +168,10 @@ export const experiences: Experience[] = [
       },
     ],
   },
-  {
-    role: "Fullstack Engineer (started as Intern)",
-    company: "Experiment Labs",
-    companyUrl: "https://www.linkedin.com/company/experiment-labs",
-    period: "Nov 2024 - Present",
-    projects: [
-      {
-        name: "Learning Management System (LMS)",
-        achievements: [
-          "**Engineered end-to-end payment and enrollment reliability** by redesigning **Razorpay API flows** with retry logic, fallback mechanisms, and automated cron-based reconciliation, ensuring **seamless course enrollment at scale**.",
-          "**Migrated platform infrastructure** from **AWS Lambda to EC2**, eliminating timeout errors across all long-running operations, improving **overall system stability and scalability**.",
-          "**Developed analytics email service** with scheduled cron jobs to deliver periodic usage insights to client organisations, enhancing **customer engagement**.",
-        ],
-      },
-      {
-        name: "Internship Portal (Built from scratch)",
-        achievements: [
-          "**Architected and developed a multi-tenant internship platform** with **Role-Based Access Control (RBAC)** supporting two organization types—**Internship Providers** (companies) and **Consumers** (schools)—ensuring **scalable onboarding and strict data isolation**.",
-          "**Built and deployed full-stack application** using **Node.js, TypeScript, Express, Prisma, MongoDB, Redis, React.js, and TailwindCSS**; deployed on **Firebase/AWS EC2** achieving **100% Best Practices, 94% Accessibility** on Lighthouse.",
-        ],
-      },
-      {
-        name: "Customer Relationship Management (CRM)",
-        achievements: [
-          "**Built AI-powered activity recommendation feature** using **OpenAI API** to generate personalised suggestions for students based on their profiles, becoming a **major revenue stream** for the platform.",
-          "**Designed and implemented a Calendar Module** for student-admin meetings (similar to **Calendly**), enabling slot requests, rescheduling, and video integration with **Zoom and Google Meet**.",
-        ],
-      },
-    ],
-  },
+  
 ];
 
-export const openSourceContributions: OpenSourceContribution[] = [
 
-];
 
 export const projectsData: ProjectData[] = [
   
