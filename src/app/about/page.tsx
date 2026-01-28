@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Ikshant shukla | Full Stack Developer",
     description: "Professional experience, open source contributions, and projects by Ikshant Shukla - Full Stack Developer passionate about building scalable web applications.",
-   // url: "https://hrshkshri.me/about",
+   // url: "https://about",
   },
   twitter: {
     title: "About Ikshant shukla | Full Stack Developer",

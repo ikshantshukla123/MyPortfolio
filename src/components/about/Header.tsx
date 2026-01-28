@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       {/* Social Links */}
       <div className="flex items-center gap-4 mb-8">
         <a
-          href="https://github.com/hrshkshri"
+          href="https://github.com/ikshantshukla123"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-400 hover:text-emerald-400 transition-colors duration-300"

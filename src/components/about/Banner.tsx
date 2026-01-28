@@ -22,7 +22,7 @@ const Banner: React.FC = () => {
                 <Link href="mailto:harshkeshari100@gmail.com">
                     <span className="flex items-center justify-center space-x-2 transition ease-in-out duration-300 transform hover:-translate-y-0.5 hover:-translate-x-0.5 cursor-pointer">
                         <AiOutlineMail className="w-5 h-5 text-neutral-900" />
-                        <span className="text-neutral-900">ikshantshukla44@gmail.com</span>
+                        <span className="text-neutral-900">ikshankshukla44@gmail.com</span>
                     </span>
                 </Link>
             </div>

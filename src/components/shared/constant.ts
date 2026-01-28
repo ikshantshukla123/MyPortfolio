@@ -155,7 +155,7 @@ export const experiences: Experience[] = [
   {
     role: "Personal Projects",
     company: "",
-    companyUrl: "https://www.linkedin.com/company/xipper",
+    companyUrl: "https://www.linkedin/company/",
     period: "Dec 2025 - Present",
     projects: [
       {

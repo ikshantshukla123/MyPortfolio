@@ -53,21 +53,22 @@ const Greeting: React.FC = () => {
 
         {/* Right image */}
         <div className="relative lg:order-last order-first">
-          <div className="relative w-full max-w-lg mx-auto">
+         <div className="relative w-full max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto">
+
             {/* Decorative glow behind image */}
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/30 via-lime-400/20 to-green-500/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
 
             {/* Image container - seamless with transparent background */}
-            <div className="relative">
+          <div className="relative w-full aspect-[3/4]">
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Gemini-Generated-Image-from-Photoroom-1-1761154733626.png?width=8000&height=8000&resize=contain"
+                src="https://vnxsfyddqosfhrcuzhgq.supabase.co/storage/v1/object/public/portfolio-images/final.png"
                 alt="Ikshant - Developer Portfolio"
-                width={600}
-                height={800}
-                className="w-full h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-500"
-                priority
-              />
-            </div>
+    fill
+    priority
+    unoptimized
+    className="object-contain hover:scale-105 transition-transform duration-500"
+  />
+</div>
 
             {/* Floating badge */}
             <div className="absolute -bottom-6 -left-6 bg-neutral-900 border border-neutral-800 rounded-2xl p-4 shadow-xl backdrop-blur-sm">
