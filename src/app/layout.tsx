@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 import ErrorReporter from "@/components/ErrorReporter";
 import NavigationWrapper from "@/components/layout/NavigationWrapper";
 
@@ -84,7 +85,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <ErrorReporter />
-        <NavigationWrapper>{children}</NavigationWrapper>
+        <NavigationWrapper>{children}
+            <Analytics />
+        </NavigationWrapper>
       </body>
     </html>
   );
