@@ -39,7 +39,7 @@ export const contactButtons: ContactButton[] = [
   {
     name: "WhatsApp",
     icon: SiWhatsapp,
-    href: "https://wa.me/918799373476",
+    href: "https://wa.me/918109537034",
     color: "bg-green-500/10 border-green-500/20",
     hoverColor: "hover:bg-green-500/20 hover:border-green-500/40",
     description: "Quick chat on WhatsApp",

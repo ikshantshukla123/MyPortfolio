@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "GitHub Activity | Ikshant Shukla",
     description:
       "Explore my GitHub profile, repositories, contributions, and open source projects.",
-    url: "https://ikshantshukla123/github",
+    url: "https://github.com/ikshantshukla123/",
   },
   twitter: {
     title: "GitHub Activity | Ikshant Shukla",
