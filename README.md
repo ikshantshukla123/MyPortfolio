@@ -1,7 +1,7 @@
 # Ikshant shukla
 
 This is the repository is for my personal website.
-Note: Layout is taken from Soemone else portfolio but theme,function and other things are created by me all the functionality is self created along with clean file struture
+##Note: Layout is taken from Someone else portfolio but theme,function and other things are created by me all the functionality is self created along with clean file struture
 ## Technologies Used
 
 - React.js
